@@ -1,5 +1,5 @@
 name: Eem
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /post/:year/:month/:day/:title
 
 theme: jekyll-theme-hacker
