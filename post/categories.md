@@ -28,5 +28,8 @@ title: "Categories are"
 </article>
 {% endfor %}
 
-
+# 3
+{% for category in site.categories %}
+    <a href="/category/{{ category[0] }}.html" style="text-decoration: none;">{% if category[0] == 'eem' %}{{ category[0] | upcase }}{% else %}{{ category[0] | capitalize }}{% endif %}</a><br />
+{% endfor %}
 
