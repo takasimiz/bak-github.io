@@ -2,6 +2,7 @@
 layout: post
 title: Which article should I introduce??
 tags: lifehack
+category: journal
 ---
 
 Players
