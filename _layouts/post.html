@@ -15,10 +15,19 @@ layout: default
   <h2>tags:</h2>
   <ul>
     {% for tag in page.tags %}
-    <li><a href="/blog/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+    <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
   </ul>
 </nav>
+  
+<nav id="category">
+  <h2>categories:</h2>
+  <ul>
+    {% for cate in page.category %}
+    <li><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>  
   
 </div>
 
