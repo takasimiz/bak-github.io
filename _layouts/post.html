@@ -11,3 +11,14 @@ layout: default
   {{ content }}
 </div>
 
+
+<nav id="tags">
+  <h2>tags:</h2>
+  <ul>
+    {% for tag in page.tags %}
+    <li><a href="/blog/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
+
