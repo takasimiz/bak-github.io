@@ -12,9 +12,13 @@ title: EEM
 {% for category in site.categories %}
     <a href="/category/{{ category[0] }}.html" style="text-decoration: none;">{% if category[0] == 'eem' %}{{ category[0] | upcase }}{% else %}{{ category[0] | capitalize }}{% endif %}</a><br />
 {% endfor %}
-		
-	<br /><br /><a href="/post">All posts.</a>
-		
+
+<ul>
+<h2>Categories</H2>		
+{% for category in site.categories %}
+    <li><a href="/category/{{ category[0] }}.html" style="text-decoration: none;">{% if category[0] == 'eem' %}{{ category[0] | upcase }}{% else %}{{ category[0] | capitalize }}{% endif %}</a></li>
+{% endfor %}
+</ul>  
 	
 	</p>
 </div><!-- /.blurb -->
