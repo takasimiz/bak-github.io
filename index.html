@@ -9,16 +9,13 @@ title: EEM
 	<p><i>We need law and order of the world, but not the way like Mr trump’s manner, namely topdown orders but bottomup.</i> Imagine that.
 		
 <h2>Categories</H2>		
-{% for category in site.categories %}
-    <a href="/category/{{ category[0] }}.html" style="text-decoration: none;">{% if category[0] == 'eem' %}{{ category[0] | upcase }}{% else %}{{ category[0] | capitalize }}{% endif %}</a><br />
-{% endfor %}
-
 <ul>
-<h2>Categories</H2>		
-{% for category in site.categories %}
+<font size="+2">  
+  {% for category in site.categories %}
     <li><a href="/category/{{ category[0] }}.html" style="text-decoration: none;">{% if category[0] == 'eem' %}{{ category[0] | upcase }}{% else %}{{ category[0] | capitalize }}{% endif %}</a></li>
 {% endfor %}
+  </font>
 </ul>  
 	
-	</p>
+</p>
 </div><!-- /.blurb -->
