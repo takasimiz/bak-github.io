@@ -1,4 +1,6 @@
 name: Eem
 markdown: kramdown
 permalink: /post/:year/:month/:day/:title
+title: EEM
+description: Engineers Ensemble Method
 theme: jekyll-theme-hacker
