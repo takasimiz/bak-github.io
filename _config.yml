@@ -1,6 +1,6 @@
 name: Eem
 markdown: kramdown
 permalink: /post/:year/:month/:day/:title
-title:engineers_ensemble_method.coq
+title: "engineers_ensemble_method.coq"
 description: Proofs and semantics are the social content of consensus.
 theme: jekyll-theme-hacker
