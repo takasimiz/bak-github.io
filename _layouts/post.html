@@ -20,6 +20,15 @@ layout: default
   </ul>
 </nav>
   
+<nav id="category">
+  <h2>categories:</h2>
+  <ul>
+    {% for cate in page.category %}
+    <li><a href="/post/category/{{ cate }}.html">{{ cate }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>  
+  
 </div>
 
 
