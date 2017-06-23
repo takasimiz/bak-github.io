@@ -76,6 +76,13 @@ footer {
     font-size: .8em;
 }
 
+ul {
+    list-style: none; /* Remove list bullets */
+}
+li:before {
+    content: "- "; /* Insert content that looks like bullets */
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
