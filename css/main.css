@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
  */
 body {
-	margin: auto;
+    margin: auto;
     width: 90%;
 }
 nav ul, footer ul {
@@ -24,14 +24,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+/* h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
+} */
 /* h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 } */
+h1:before {
+    content: "* "
+}
 h2:before {
     content: "# "
 }
