@@ -5,8 +5,8 @@ description: "description"
 ---
 
 <div class="blurb">
-	<h1>{{ page.title }}</h1>
-	<h2>{{ cite.title }}</h2>
+	<h1>{{ page.title | default: "err"}}</h1>
+	<h2>{{ cite.description | default: "err"}}</h2>
 	<p><i>We need law and order of the world, but not the way like Mr trump’s manner, namely topdown orders but bottomup.</i> Imagine that.
 		
 <h2>Categories</H2>		
