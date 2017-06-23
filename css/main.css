@@ -3,7 +3,6 @@
 
 @import "{{ site.theme }}";
  */
-
 body {
     margin: 60px auto;
     width: 70%;
@@ -36,6 +35,7 @@ h1:before{
     height: 1px;
     bottom: 0;
     left: 0%;
+    content: "# "
 }
 h2 {
     font-size: 2em;
@@ -48,6 +48,7 @@ h1:before{
     height: 1px;
     bottom: 0;
     left: 0%;
+    content: "## "
 }
 p {
     font-size: 1.5em;
