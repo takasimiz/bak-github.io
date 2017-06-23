@@ -10,9 +10,10 @@ layout: default
 <div class="post">
   {{ content }}
   
+<hr>
   
 <nav id="tags">
-  <h2>tags:</h2>
+  <h3>Related tags</h3>
   <ul>
     {% for tag in page.tags %}
     <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
@@ -21,7 +22,7 @@ layout: default
 </nav>
   
 <nav id="category">
-  <h2>categories:</h2>
+  <h3>Related categories</h3>
   <ul>
     {% for cate in page.category %}
     <li><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
