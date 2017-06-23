@@ -50,7 +50,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-p.githublike {
+.githublike {
     font-family: "Courier New", "Lucida Console", Monospace;
 }
 footer {
