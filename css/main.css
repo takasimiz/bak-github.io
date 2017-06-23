@@ -77,19 +77,25 @@ footer {
     font-size: .8em;
 }
 
+/* 
 ul {
-    list-style: none; /* Remove list bullets */
+    list-style: none; 
 }
 li:before {
-    content: "- "; /* Insert content that looks like bullets */
+    content: "- "; 
 }
+*/
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    list-style: none; 
 }
 ul.posts li {
     list-style: none;
+}
+ul.posts li:before {
+    content: "- "; 
 }
 
 bar ul {
