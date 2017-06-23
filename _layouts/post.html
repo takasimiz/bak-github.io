@@ -4,25 +4,27 @@ layout: default
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-<div class="githublike">
-  <strong>-----</strong><br />
+<!-- <div class="githublike"> -->
+<githublike>
+<strong>-----</strong><br />
 title: <strong>{{ page.title }}</strong><br />
 date: {{ page.date | date: "%Y-%m-%d" }}<br />
 description: {{ page.description | default: "None"}}<br />
 category:
-    <ul class="githublike">
+    <ul>
     {% for cate in page.category %}
     <li class="githublike"><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
     {% endfor %}
   </ul>
 tags: 
-  <ul class="githublike">
+  <ul>
     {% for tag in page.tags %}
-    <li class="githublike"><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+    <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
   </ul>
 <strong>-----</strong><br />
-  </div> 
+<!--   </div>  -->
+</githublike>
 
 
 <!-- <h1>{{ page.title }}</h1>
