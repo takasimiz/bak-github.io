@@ -6,6 +6,7 @@
 body {
     margin: auto;
     width: 90%;
+    font-family: "Courier New", "Lucida Console", Monospace;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -33,19 +34,19 @@ a:hover {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 } */
 h1:before {
-    content: "* "
-}
-h2:before {
     content: "# "
 }
-h3:before {
+h2:before {
     content: "## "
 }
-h4:before {
+h3:before {
     content: "### "
 }
-h5:before {
+h4:before {
     content: "#### "
+}
+h5:before {
+    content: "##### "
 }
 
 p {
@@ -55,7 +56,7 @@ p {
 }
 .githublike {
     font-family: "Courier New", "Lucida Console", Monospace;
-    font-size: 2em;
+/*     font-size: 2em; */
 }
 footer {
     border-top: 1px solid #d5d5d5;
