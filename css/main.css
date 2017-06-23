@@ -6,7 +6,7 @@
 body {
     margin: auto;
     width: 90%;
-    height: 70%;
+    height: 50%;
     font-family: "Courier New", "Lucida Console", Monospace;
 }
 nav ul, footer ul {
@@ -75,7 +75,7 @@ githublike ul li {
 }
 
 footer {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Times New Roman", "Georgia", Serif;
     border-top: 1px solid #d5d5d5;
     font-size: .5em;
 }
@@ -124,6 +124,9 @@ bar li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+bar ul li:before {
+    content: ""; 
 }
 bar li a:hover:not(.active) {
     background-color: #111;
