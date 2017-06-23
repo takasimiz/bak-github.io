@@ -7,12 +7,35 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
+
 <div class="post">
   {{ content }}
   
 <hr>
+
   
-<nav id="tags">
+---
+title: {{ page.title }}
+date: {{ page.date | date_to_string }}
+category: 
+    <ul>
+    {% for cate in page.category %}
+    <li><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
+    {% endfor %}
+  </ul>
+
+tags: 
+  <ul>
+    {% for tag in page.tags %}
+    <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+description: {{ page.description | default: "None"}}
+---
+
+  
+  
+<!-- <nav id="tags">
   <h3>Related tags</h3>
   <ul>
     {% for tag in page.tags %}
@@ -29,7 +52,7 @@ layout: default
     {% endfor %}
   </ul>
 </nav>  
-  
+   -->
 </div>
 
 
