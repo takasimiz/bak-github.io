@@ -12,13 +12,13 @@ description: {{ page.description | default: "None"}}<br />
 category:
     <ul class="githublike">
     {% for cate in page.category %}
-    <li><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
+    <li class="githublike"><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
     {% endfor %}
   </ul>
 tags: 
   <ul class="githublike">
     {% for tag in page.tags %}
-    <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+    <li class="githublike"><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
   </ul>
 <strong>-----</strong><br />
