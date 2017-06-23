@@ -12,20 +12,17 @@ date: {{ page.date | date: "%Y-%m-%d" }}<br />
 description: {{ page.description | default: "None"}}<br />
 category:
 <!--     <ul> -->
-    [
-    {% for cate in page.category %}
+    
+    [{% for cate in page.category %}
 <!--     <li class="githublike"><a href="/category/{{ cate }}.html">{{ cate }}</a></li> -->
-    <a href="/category/{{ cate }}.html">{{ cate }}; </a>
-    {% endfor %}
-    ]<br />
+    <a href="/category/{{ cate }}.html">{{ cate }}</a>; 
+    {% endfor %}]<br />
 <!--   </ul> -->
 tags:
 <!--   <ul> -->
-    [
-    {% for tag in page.tags %}
-    <a href="/post/tags.html#tag_{{ tag }}">{{ tag }}; </a>
-    {% endfor %}
-    ]<br />
+    [{% for tag in page.tags %}
+    <a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a>; 
+    {% endfor %}]<br />
 <!--   </ul> -->
 <strong>-----</strong><br />
 <!--   </div>  -->
