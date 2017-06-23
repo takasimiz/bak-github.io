@@ -9,10 +9,12 @@ description: Difficult thing is a task.
 
 EEM project is a long, long shot. How could we keep motivation high? *Make everyday task.* How is the task would be made every single day?  *Make difficulties list.* Here the following is.
 
-# SA = GA Project
+SA = GA Project
+====
 
+Theoretical
+----
 
-## Theoretical
 - a
 - e
 - i
