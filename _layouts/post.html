@@ -14,10 +14,10 @@ layout: default
 <hr>
 
   
----
-title: {{ page.title }}
-date: {{ page.date | date_to_string }}
-category: 
+---<br />
+title: {{ page.title }}<br />
+date: {{ page.date | date_to_string }}<br />
+category:
     <ul>
     {% for cate in page.category %}
     <li><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
@@ -30,7 +30,7 @@ tags:
     <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
   </ul>
-description: {{ page.description | default: "None"}}
+description: {{ page.description | default: "None"}}<br />
 ---
 
   
