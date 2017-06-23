@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
  */
 body {
-    margin: 60px auto;
-    width: 70%;
+/*     margin: 60px auto;
+    width: 70%; */
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
