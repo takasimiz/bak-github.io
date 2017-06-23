@@ -6,6 +6,7 @@
 body {
     margin: auto;
     width: 90%;
+	height: 70%;
     font-family: "Courier New", "Lucida Console", Monospace;
 }
 nav ul, footer ul {
