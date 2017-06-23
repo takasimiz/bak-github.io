@@ -6,7 +6,7 @@
 body {
     margin: auto;
     width: 90%;
-	height: 70%;
+    height: 70%;
     font-family: "Courier New", "Lucida Console", Monospace;
 }
 nav ul, footer ul {
@@ -66,10 +66,11 @@ githublike {
 }
 githublike ul { 
     padding-top: 0px;
-	padding-bottom: 0px; 
+    padding-bottom: 0px; 
 }
 githublike ul li {
-/*     list-style: none; */
+    list-style: none;
+    display: inline;
 }
 
 footer {
