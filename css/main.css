@@ -32,7 +32,7 @@ h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 } */
-h3:before {
+h2:before {
     content: "# "
 }
 h3:before {
