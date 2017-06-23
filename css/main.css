@@ -52,6 +52,7 @@ p {
 }
 .githublike {
     font-family: "Courier New", "Lucida Console", Monospace;
+    font-size: 2em;
 }
 footer {
     border-top: 1px solid #d5d5d5;
