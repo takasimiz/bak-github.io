@@ -83,13 +83,13 @@ li:before {
     content: "- "; /* Insert content that looks like bullets */
 }
 
-ul.posts { 
+/* ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 ul.posts li {
     list-style: none;
-}
+} */
 
 bar ul {
     list-style-type: none;
