@@ -5,9 +5,26 @@ layout: default
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 <div class="githublike">
-{{ page.title }}
- </div>
- 
+  <strong>-----</strong><br />
+title: <strong>{{ page.title }}</strong><br />
+date: {{ page.date | date: "%Y-%m-%d" }}<br />
+description: {{ page.description | default: "None"}}<br />
+category:
+    <ul class="githublike">
+    {% for cate in page.category %}
+    <li><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
+    {% endfor %}
+  </ul>
+tags: 
+  <ul class="githublike">
+    {% for tag in page.tags %}
+    <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+<strong>-----</strong><br />
+  </div> 
+
+
 <!-- <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p> -->
 
@@ -34,21 +51,4 @@ layout: default
    -->
 </div>
 
-<div class="githublike">
-  <strong>-----</strong><br />
-date: {{ page.date | date: "%Y-%m-%d" }}<br />
-description: {{ page.description | default: "None"}}<br />
-category:
-    <ul>
-    {% for cate in page.category %}
-    <li><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
-    {% endfor %}
-  </ul>
-tags: 
-  <ul>
-    {% for tag in page.tags %}
-    <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
-    {% endfor %}
-  </ul>
-<strong>-----</strong><br />
-  </div>
+
