@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
  */
 body {
-    margin: auto;
+    margin: 60px auto;
 /*     margin: 60px auto;
     width: 70%; */
 }
