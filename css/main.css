@@ -36,9 +36,6 @@ h1:before{
     bottom: 0;
     left: 0%;
 }
-h1:before {
-    content: "# "
-}
 h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -51,8 +48,11 @@ h2:before{
     bottom: 0;
     left: 0%;
 }
-h2:before {
-    content: "## "
+h3:before {
+    content: "aaa "
+}
+h4:before {
+    content: "bbbb "
 }
 p {
     font-size: 1.5em;
