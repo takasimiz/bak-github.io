@@ -29,7 +29,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h1:before{
-    content: "= = = = = =";
+    content: "\=\=\=\=\=\=";
     position: absolute;
     width: 50%;
     height: 1px;
@@ -44,7 +44,7 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2:before{
-    content: "- - - - - -";
+    content: "fsadjfklasdjfal";
     position: absolute;
     width: 50%;
     height: 1px;
