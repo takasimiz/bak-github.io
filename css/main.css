@@ -68,7 +68,7 @@ ul.posts li {
     list-style: none;
 }
       
-ul {
+bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -76,7 +76,7 @@ ul {
     background-color: #f1f1f1;
 }
 
-li a {
+bar li a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -84,7 +84,7 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover {
+bar li a:hover {
     background-color: #555;
     color: white;
 }
