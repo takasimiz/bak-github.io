@@ -89,15 +89,18 @@ li:before {
 }
 */
 
-ul.posts { 
+ul { 
+/* ul.posts {  */
     margin: 20px auto 40px; 
     font-size: 1.5em;
     list-style: none; 
 }
-ul.posts li {
+/* ul.posts li { */
+ul li {
     list-style: none;
 }
-ul.posts li:before {
+/* ul.posts li:before { */
+ul li:before {
     content: "- "; 
 }
 
