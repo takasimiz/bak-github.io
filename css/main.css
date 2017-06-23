@@ -59,16 +59,16 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-.githublike {
+githublike {
     font-family: "Courier New", "Lucida Console", Monospace;
 /*     font-size: 2em; */
     padding: 0px;
 }
-ul.githublike { 
+githublike ul { 
     padding-top: 0px;
 	padding-bottom: 0px; 
 }
-ul.githublike li {
+githublike ul li {
 /*     list-style: none; */
 }
 
