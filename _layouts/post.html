@@ -4,15 +4,11 @@ layout: default
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-<hr>
-
 <div class="githublike">
-  <strong>-----</strong><br />
-title: {{ page.title }}<br />
-date: {{ page.date | date: "%Y-%m-%d" }}
-description: {{ page.description | default: "None"}}<br />
 <strong>-----</strong><br />
-  </div>
+{{ page.title }}<br />
+<strong>-----</strong><br />
+ </div>
  
 <!-- <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p> -->
@@ -42,6 +38,8 @@ description: {{ page.description | default: "None"}}<br />
 
 <div class="githublike">
   <strong>-----</strong><br />
+date: {{ page.date | date: "%Y-%m-%d" }}<br />
+description: {{ page.description | default: "None"}}<br />
 category:
     <ul>
     {% for cate in page.category %}
@@ -56,7 +54,3 @@ tags:
   </ul>
 <strong>-----</strong><br />
   </div>
-
-
-
-
