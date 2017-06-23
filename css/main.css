@@ -28,14 +28,6 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-h1:before{
-    content: "\=\=\=\=\=\=";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 0%;
-}
 /* h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
