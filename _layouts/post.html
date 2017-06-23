@@ -17,14 +17,16 @@ category:
 <!--     <li class="githublike"><a href="/category/{{ cate }}.html">{{ cate }}</a></li> -->
     <a href="/category/{{ cate }}.html">{{ cate }}; </a>
     {% endfor %}
-    [
+    ]<br />
 <!--   </ul> -->
-tags: 
-  <ul>
+tags:
+<!--   <ul> -->
+    [
     {% for tag in page.tags %}
-    <li><a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+    <a href="/post/tags.html#tag_{{ tag }}">{{ tag }}; </a>
     {% endfor %}
-  </ul>
+    ]<br />
+<!--   </ul> -->
 <strong>-----</strong><br />
 <!--   </div>  -->
 </githublike>
