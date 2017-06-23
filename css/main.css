@@ -5,8 +5,9 @@
  */
 body {
     margin: 60px auto;
-/*     margin: 60px auto;
-    width: 70%; */
+/*     margin: 60px auto; */
+    width: 90%;
+    height: 90%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
