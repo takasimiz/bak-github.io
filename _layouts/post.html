@@ -11,11 +11,14 @@ title: <strong>{{ page.title }}</strong><br />
 date: {{ page.date | date: "%Y-%m-%d" }}<br />
 description: {{ page.description | default: "None"}}<br />
 category:
-    <ul>
+<!--     <ul> -->
+    [
     {% for cate in page.category %}
-    <li class="githublike"><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
+<!--     <li class="githublike"><a href="/category/{{ cate }}.html">{{ cate }}</a></li> -->
+    <a href="/category/{{ cate }}.html">{{ cate }}; </a>
     {% endfor %}
-  </ul>
+    [
+<!--   </ul> -->
 tags: 
   <ul>
     {% for tag in page.tags %}
