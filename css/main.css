@@ -123,11 +123,13 @@ bar ul {
 /*     bottom: 0; */
     width: 90%;
 } 
-bar li {
+/* bar li { */
+bar ul li {
     float: left;
     list-style: none;
 }
-bar li a {
+/* bar li a { */
+bar ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -137,7 +139,8 @@ bar li a {
 bar ul li:before {
     content: ""; 
 }
-bar li a:hover:not(.active) {
+/* bar li a:hover:not(.active) { */
+bar ul li a:hover:not(.active) {
     background-color: #111;
 }
 @media screen and (max-width: 600px){
