@@ -48,6 +48,9 @@ h1:after {
 h2:before {
     content: "## "
 }
+h2:after {
+    content: " ##"
+}
 h3:before {
     content: "### "
 }
@@ -80,7 +83,7 @@ githublike ul li {
 footer {
     font-family: "Times New Roman", "Georgia", Serif;
     border-top: 1px solid #d5d5d5;
-    font-size: .5em;
+    font-size: .7em;
 }
 
 /* 
@@ -92,11 +95,12 @@ li:before {
 }
 */
 
-ul, ol{ 
+/* ul, ol{  */
 /* ul.posts {  */
+ul li, ul ol{
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    list-style: none; 
+/*     list-style: none;  */
 }
 /* ul.posts li { */
 /* ul li, ul ol { */
