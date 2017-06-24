@@ -131,6 +131,9 @@ bar ul li:before {
 bar li a:hover:not(.active) {
     background-color: #111;
 }
+@media screen and (max-width: 600px){
+    bar ul li {float: none;}
+}
 .active {
     background-color: #4CAF50;
 }
