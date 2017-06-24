@@ -36,7 +36,7 @@ a:hover {
 } */
 h1 h2 h3 h4 h5{
     font-size: 2em;
-    font-style: normal; /* Disable italic ?*/
+    font-style: normal; /* Disable italic */
 }
 
 h1:before {
@@ -99,7 +99,8 @@ ul, ol{
     list-style: none; 
 }
 /* ul.posts li { */
-ul li, ul ol {
+/* ul li, ul ol { */
+ul li {
     list-style: none;
 }
 /* ul.posts li:before { */
@@ -134,10 +135,10 @@ bar ul li:before {
 bar li a:hover:not(.active) {
     background-color: #111;
 }
-/* @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
     bar ul li {float: none;}
-} */
-@media screen and (max-width: 900px) {
+}
+/* @media screen and (max-width: 900px) {
     bar ul {
         width: 100%;
         height: auto;
@@ -147,14 +148,14 @@ bar li a:hover:not(.active) {
         float: left;
         padding: 15px;
     }
-/*     div.content {margin-left: 0;} */
+     body {margin-left: 0;} 
 }
 @media screen and (max-width: 400px) {
     bar ul li a {
         text-align: center;
         float: none;
     }
-}
+} */
 .active {
     background-color: #4CAF50;
 }
