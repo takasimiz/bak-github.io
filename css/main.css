@@ -125,6 +125,7 @@ bar ul {
 } 
 bar li {
     float: left;
+    list-style: none;
 }
 bar li a {
     display: block;
