@@ -3,4 +3,4 @@ markdown: kramdown
 permalink: /post/:year/:month/:day/:title
 title: "EEM.v"
 description: Proofs and semantics are the social content of consensus.
-theme: jekyll-theme-hacker
+
