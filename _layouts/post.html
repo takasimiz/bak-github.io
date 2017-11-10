@@ -2,7 +2,13 @@
 layout: default
 ---
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 
 <!-- <div class="githublike"> -->
 <githublike>
@@ -12,16 +18,16 @@ date: {{ page.date | date: "%Y-%m-%d" }}<br />
 description: {{ page.description | default: "None"}}<br />
 category:
 <!--     <ul> -->
-    
+
     [{% for cate in page.category %}
 <!--     <li class="githublike"><a href="/category/{{ cate }}.html">{{ cate }}</a></li> -->
-    <a href="/category/{{ cate }}.html">{{ cate }}</a>; 
+    <a href="/category/{{ cate }}.html">{{ cate }}</a>;
     {% endfor %}]<br />
 <!--   </ul> -->
 tags:
 <!--   <ul> -->
     [{% for tag in page.tags %}
-    <a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a>; 
+    <a href="/post/tags.html#tag_{{ tag }}">{{ tag }}</a>;
     {% endfor %}]<br />
 <!--   </ul> -->
 <strong>-----</strong><br />
@@ -34,7 +40,7 @@ tags:
 
 <div class="post">
   {{ content }}
-  
+
 <!-- <nav id="tags">
   <h3>Related tags</h3>
   <ul>
@@ -43,7 +49,7 @@ tags:
     {% endfor %}
   </ul>
 </nav>
-  
+
 <nav id="category">
   <h3>Related categories</h3>
   <ul>
@@ -51,8 +57,6 @@ tags:
     <li><a href="/category/{{ cate }}.html">{{ cate }}</a></li>
     {% endfor %}
   </ul>
-</nav>  
+</nav>
    -->
 </div>
-
-
