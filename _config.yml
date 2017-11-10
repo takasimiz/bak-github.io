@@ -1,6 +1,6 @@
 name: Eem
 markdown: kramdown
+mathjax: true
 permalink: /post/:year/:month/:day/:title
 title: "EEM.v"
 description: Proofs and semantics are the social content of consensus.
-
